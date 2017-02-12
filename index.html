@@ -7,13 +7,15 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <header>
       <h1>Artistic Life Photography</h1>
-      <h1>Capture the moments...</h1>
+      <h4>Capture the moments...</h4>
       <nav>
         <li><a>Portraits</a></li>
         <li><a>Retouching</a></li>
@@ -29,13 +31,25 @@
     </header>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="main">
       <nav class="breadcrumbs">
         <li>Home</li>
       </nav>
       <div class="wrapper">
-<!--       CTA/main slideshow here-->
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  				<div class="carousel-inner" role="listbox">
+    				<div class="carousel-item active">
+      				<img class="d-block img-fluid" src="http://placehold.it/700x500" alt="First slide">
+    				</div>
+    				<div class="carousel-item">
+      				<img class="d-block img-fluid" src="http://placehold.it/500x500" alt="Second slide">
+   					</div>
+    				<div class="carousel-item">
+      				<img class="d-block img-fluid" src="http://placehold.it/500x500" alt="Third slide">
+    				</div>
+  				</div>
+				</div>
       </div>
       <aside class="featuredEvents">
 <!--         Featured Event thumbs here -->
@@ -43,7 +57,7 @@
     </div>
   </div>
 
-  <footer>
+  <footer class="container-fluid">
     <nav class="footerNav">
       <li><a>Home</a></li>
       <li><a>Client Galleries</a></li>
